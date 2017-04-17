@@ -25,7 +25,7 @@
 
 import UIKit
 
-public class SlackLoadingAnimator: UIView, CRRefreshProtocol {
+open class SlackLoadingAnimator: UIView, CRRefreshProtocol {
     
     public var view: UIView { return self }
     
